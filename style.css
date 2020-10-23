@@ -1,0 +1,331 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom:72px;
+  background-image: url('images/1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+   
+}
+.search-input{
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+line-height: 1.42857143;
+font-family: NotoKufiArabic-Regular,"Open Sans",Tahoma,Arial,sans-serif!important;
+font-weight: 400;
+text-align: center;
+color: #fff;
+font-size: 16px;
+box-sizing: border-box;
+user-select: text !important;
+right: 50%;
+position: absolute;
+left: 50%;
+top: 50%;
+margin-top: -35px;
+border-radius: 50px;
+height: 70px;
+overflow: hidden;
+background: rgba(221,221,221,.8);
+border: 1px solid #888;
+margin-right: -300px;
+margin-left: -300px;
+width: 600px;
+}
+.search-submit{
+    font-family: NotoKufiArabic-Regular,"Open Sans",Tahoma,Arial,sans-serif!important;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    right: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 240px;
+    border-radius: 50px;
+    height: 70px;
+    width: 90px;
+    overflow: hidden;
+    background-color:#000;
+    margin-left: 310px;
+    
+    }
+.row{
+-webkit-tap-highlight-color: transparent;
+line-height: 1.42857143;
+color: #333;
+font-family: 'DroidKufi-Regular', "Open Sans", Tahoma, Arial, sans-serif !important;
+font-weight: normal;
+font-size: 12px;
+text-align: center;
+box-sizing: border-box;
+margin-right: -15px;
+margin-left: -15px;
+}
+
+/* Page */
+
+.page {
+    margin-top: 70px;
+    padding: 15px;
+    margin-bottom: 50px;
+    border: 1px solid #fff;
+    background-color: #FFF;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.page h3 {
+    color: #FFF;
+    text-align: right;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #aaa;
+    font-size: 24px;
+}
+
+.page label {
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+
+
+/* Submit Page */
+
+.submit-page {
+    margin-top: 80px;
+    margin-bottom: 70px;
+    padding: 15px;
+    border: 1px solid #fff;
+    background-color: #FFF;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.submit-page .form-group .form-control {
+    width: 100%;
+}
+
+.submit-page h3 {
+    color: #4D4D4D;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 10px 0px 20px 0px;
+    border-bottom: 2px solid #ddd;
+    text-align: right;
+}
+
+.submit-page p {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.submit-page .alert-danger {
+    font-size: 14px;
+}
+
+.submit-page .password_hide {
+    display: none;
+}
+
+.submit-page .table {
+    margin-bottom: 0px;
+}
+
+.submit-page a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.submit-page label {
+    font-size: 16px;
+}
+
+.password_hide {
+    display: none;
+}
+
+
+
+
+
+/* Categories */
+
+.categories {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.categories_title {
+    color: #fff;
+    padding-bottom: 10px;
+    font-size: 28px;
+
+}
+
+/* Category Box */
+
+.category_box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.category_box > .icon {
+    text-align: center;
+    position: relative;
+}
+
+.category_box > .icon > .image {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border: 2px solid #fff;
+    line-height: 120px;
+    border-radius: 50%;
+
+    vertical-align: middle;
+}
+
+
+
+
+
+
+.category_box > .icon > .info {
+    margin-top: -24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #ccc;
+    padding: 15px 15px 10px 10px;
+    font-size: 14px;
+}
+
+.category_box > .icon > .info > p {
+    color: #fff;
+    line-height: 1.5em;
+    margin: 20px;
+    font-size: 12px;
+    height: 80px;
+}
+
+.category_box > .icon > .info > .title {
+    color: #fff;
+    font-size: 16px;
+}
+
+.category_box > .icon > .info > .title > a {
+    color: #4D4D4D;
+    border: #fff;
+}
+
+.category_box > .icon:hover > .info > .box > .icon:hover > .info > p,
+.box > .icon:hover > .info > .more > a {
+    color: #222;
+}
+
+.category_box > .icon > .info > .more a {
+    color: #222;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.category_box > .icon:hover > .info > .more > a {
+    color: #000;
+    padding: 6px 8px;
+    border-bottom: 4px solid #666;
+}
+
+
+/* Subjects */
+
+.subjects {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.subjects h3 {
+    text-align: right;
+    font-size: 24px;
+}
+
+/* Subject Box */
+
+.subject-box {
+    margin-bottom: 50px;
+}
+
+.subject-box > .icon {
+    text-align: center;
+    position: relative;
+}
+
+.subject-box > .icon > .title {
+    position: relative;
+    margin: auto;
+    height: 150px;
+}
+
+.subject-box > .icon > .title > p {
+    display: table-cell;
+    vertical-align: middle;
+    height: 150px;
+    width: 360px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 30px !important;
+    font-weight: bold;
+    color: #fff !important;
+    text-shadow: 1px 1px 5px #888888;
+}
+
+.subject-box > .icon > .title > p > a {
+    color: #fff !important;
+}
+
+.subject-box > .icon:hover > .title > p {
+    color: white !important;
+}
+
+.subject-box > .icon > .info {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 0 10px 0;
+    font-size: 14px;
+
+}
+
+.subject-box > .icon > .info > p {
+    color: #666;
+    line-height: 1.5em;
+    margin: 20px;
+    height: 80px;
+}
+
+.subject-box > .icon:hover > .info > .box > .icon:hover > .info > p,
+.box > .icon:hover > .info > .more > a {
+    color: #222;
+}
+
+.subject-box > .icon > .info > .more a {
+    color: #222;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.subject-box > .icon:hover > .info > .more > a {
+    color: #000;
+    padding: 6px 8px;
+    border-bottom: 4px solid #666;
+}
+
+
+
+
+
+
+
+
+
